@@ -4,3 +4,4 @@
 
 ## git clone
 * ssh로 clone 받기
+* ssh로 clone 받기
