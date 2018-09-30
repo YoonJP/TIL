@@ -1,6 +1,6 @@
 # TIL
 
-# Sat Sep 29 2018
+# Sun Sep 30 2018
 
 ## 1. Today I learned
 
