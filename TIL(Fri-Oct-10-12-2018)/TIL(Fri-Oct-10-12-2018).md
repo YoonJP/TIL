@@ -2,7 +2,7 @@
 
 ------
 
-# 10/12 (금) (윤재, 슬비)
+# 10/12 (금) 
 
 # 1. Today I Learned
 
@@ -355,6 +355,8 @@ flatten(arr)
 
 ```js
 // object spread 예제 코드
+//※ 속성을 복사할 때 순서상으로 뒤에 있는 속성이 앞에 있는 같은 이름의 속성을 덮어씌운다. 
+
 const obj1 = {prop: 1, a: 2, b: 3};
 const obj2 = {a: 3, b: 4}
 const obj = {
@@ -367,10 +369,8 @@ const obj = {
 };
 
 
-console.log(obj)
+console.log(obj) // { a: 3, b: 4, prop: 1, c: 4, d: 5 } 반환
 ```
-
-※ 만약 복사된 속성이 이전의 속성 다음에 넣게 되었을 때 같은 이름이라면 덮어 씌워지게 된다. 
 
 ※ ES 2018에 추가된 문법이라 아직 몇몇 브라우저에 이 문법이 구현되어 있지 않기 때문에, 이 문법을 사용하려면 [Babel 플러그인](http://babeljs.io/docs/plugins/transform-object-rest-spread/) 혹은 [TypeScript](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html#object-spread-and-rest) 등의 트랜스파일러를 사용해야 합니다.
 
