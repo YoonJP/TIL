@@ -221,9 +221,21 @@ true > 1; // false
 3 > 2 && 2 > 1; // true
 ```
 
-**거듭제곱 연산자, 할당 연산자, 삼항 연산자**가 우결합성을 가진다.
+대부분의 경우 결합 순서가 명확히 눈에 보이므로 결합 순서에 대한 걱정을 크게 할 필요가 없지만, **거듭제곱 연산자, 할당 연산자, 삼항 연산자**는  우결합성을 가진다.
+```js
+// 위아래 식은 완전히 같은 방식으로 동작합니다.
+2 ** 2 ** 3; // 256
+2 ** (2 ** 3); // 256
 
+// 위아래 식은 완전히 같은 방식으로 동작합니다.
+let x, y, z;
+z = y = x = 1
+z = (y = (x = 1))
 
+// 위아래 식은 완전히 같은 방식으로 동작합니다.
+a ? b : c ? d : e ? f : g
+a ? b : (c ? d : (e ? f : g))
+```
 
 ## 값을 비교하는 여러 가지 방법
 
@@ -612,13 +624,13 @@ const incEl = document.querySelector('.button-inc')
 const resetEl = document.querySelector('.button-reset')
 
 // incEl에서 클릭 이벤트가 일어났을 경우 실행시킬 함수를 등록
-// 이벤트 리스너
+// 카운터 버튼을 누르면 숫자를 1씩 증가시킴
 incEl.addEventListener('click', e => {
   count++
   countEl.textContent = count
 })
 
-// 이벤트 리스너
+// 리셋 버튼을 누르면 숫자를 0으로 초기화시킴
 resetEl.addEventListener('click', e => {
   count = 0
   countEl.textContent = count
@@ -629,18 +641,15 @@ resetEl.addEventListener('click', e => {
 ```js
 // Form Scripting 실습
 
+// 빨강버튼을 누르면 form영역의 배경색상을 빨강으로 바꿔주는 코드
 const redButtonEl = document.querySelector('button.red')
 redButtonEl.addEventListener('click', e => {
   const formEl = document.querySelector('form')
   formEl.style.backgroundColor = 'red'
 })
 
-const resetEl = document.querySelector('button.reset')
-resetEl.addEventListener('click', e => {
-  const formEl = document.querySelector('form')
-  formEl.style.backgroundColor = null
-})
 
+// 파랑버튼을 누르면 form영역의 배경색상을 파랑으로 바꿔주는 코드
 const blueEl = document.querySelector('button.blue')
 blueEl.addEventListener('click', e => {
   const formEl = document.querySelector('form')
@@ -657,10 +666,16 @@ function colorGenerator() {
 }
 
 const randomEl = document.querySelector('button.random')
-const randomColor = colorGenerator()
 randomEl.addEventListener('click', e => {
   const formEl = document.querySelector('form')
   formEl.style.backgroundColor = colorGenerator()
+})
+
+// 복구버튼을 누르면 form영역의 배경색상을 없애주는 코드
+const resetEl = document.querySelector('button.reset')
+resetEl.addEventListener('click', e => {
+  const formEl = document.querySelector('form')
+  formEl.style.backgroundColor = null
 })
 ```
 
