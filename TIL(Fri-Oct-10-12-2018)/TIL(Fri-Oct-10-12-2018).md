@@ -8,6 +8,8 @@
 
 # JAVASCRIPT 심화 1
 
+# 연산자 더 알아보기
+
 ## 표현식 (Expression)
 
 코드 중에 **값으로 변환될 수 있는** 부분이 **표현식(expression)** 이고, 
