@@ -120,6 +120,7 @@
 - [Key value - MDN](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)
 
 - [NodeList.forEach - devdocs](http://devdocs.io/dom/nodelist/foreach)
+- [NodeList - MDN ko](https://developer.mozilla.org/ko/docs/Web/API/NodeList)
 
 
 
