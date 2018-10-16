@@ -64,8 +64,11 @@
 - `mousedown` / `mouseup` - 요소 위에서 마우스 버튼을 눌렀을 때 / 놓았을 때 (buttonup / buttondown의 역할)
 - `mousemove` - 요소 위에서 마우스 포인터가 움직일 때마다
 
-- `mouseenter` / `mouseleave` - **과제: `mouseover` / `mouseout` 세트와의 차이(미묘한 차이가 있다. 주로  `mouseover` / `mouseout` 세트를 씀)**
+`mouseenter` / `mouseleave` 세트와  `mouseover` / `mouseout` 세트의 미묘한 차이(주로  `mouseover` / `mouseout` 세트를 씀)
 
+- 해당 요소에 자식 요소가 없다면 두 세트 모두 같이 기능한다.
+- 하지만 만약 해당 요소에 자식 요소가 있다면 미묘하게 다른 점이 생긴다. 
+- 마우스 포인터가 해당 요소를 지나 자식 요소에 올려지면 `mouseover` / `mouseout` 세트는 모두 작동되지만, 같은 동작을 `mouseenter` / `mouseleave` 세트를 쓸 경우엔  `mouseenter` 만 작동한다. 왜냐하면 마우스는 여전히 요소에 있는 것이기 때문이다. 
 
 
 ## 키보드 이벤트
