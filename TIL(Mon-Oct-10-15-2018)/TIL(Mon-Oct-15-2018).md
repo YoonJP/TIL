@@ -1,6 +1,6 @@
 # TIL (Today I learned) 
 
-# 10/5 (월)
+# 10/15 (월)
 
 # 1. Today I Learned
 
