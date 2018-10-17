@@ -28,6 +28,7 @@
 
 
 - **게임을 만들때 사고방식**
+
    ![way of thinking  for game dev](./img/way of thinking  for game dev.JPG)
   - game loop(game cycle): 사용자의 입력을 받거나, 시간의 경과가 생기면 화면을 다시 그려줄 때, 다시 그리기 전의 현재 화면(**상태(state)**)를 기반해서 화면을 다시 그려준다. (그 때, 상태에 기반해서 어떻게 변화를 줘야 할 지 잘 생각해 볼 것.) 프론트엔드가 프로그래밍하는 방법이 이와 거의 유사하다. 
 
