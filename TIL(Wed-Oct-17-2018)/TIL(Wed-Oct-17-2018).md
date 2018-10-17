@@ -8,8 +8,6 @@
 
 # 1. Today I Learned
 
-# Quiz(Morning Activity) Review
-
 # Lecture Note (RGB Challenge)
 
 - **Javascript에서 동작을 만드는 2가지 방법**
