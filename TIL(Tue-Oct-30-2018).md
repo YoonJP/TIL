@@ -6,7 +6,7 @@
 
 # FDS Node.js + HTTP
 
-## 1. [Express](https://fds11.github.io/fds-nodejs-http/1-2-2-express.html)
+## 1. Express
 
 - Node.js 생태계에서 **가장 널리 쓰이는 웹 프레임워크**
 
@@ -106,7 +106,7 @@ app.get('/articles/:id', (req, res) => {
 - 바디
 
 
-## 2. [Template Language](https://fds11.github.io/fds-nodejs-http/1-2-3-template.html)
+## 2. Template Language
 
 - 웹 초창기 - CGI (Common Gate Interface)
 
@@ -147,7 +147,7 @@ app.use('/static', express.static('public'))
 
 
 
-## 3. [Web Form](https://fds11.github.io/fds-nodejs-http/1-3-1-form.html)
+## 3. Web Form
 
 - HTML form의 기본 동작
 
