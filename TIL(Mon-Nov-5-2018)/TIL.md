@@ -6,7 +6,7 @@
 
 # 1. Today I Learned
 
-#모던 웹 서비스의 구성요소
+# 모던 웹 서비스의 구성요소
 
 # Fetch API
 
@@ -63,7 +63,7 @@ fetch("/data.json").then(function(res) {
 
 # HTTP Cache
 
-##Cache
+## Cache
 
 1. (무기 등의) 은닉처
 2. 은닉하다
