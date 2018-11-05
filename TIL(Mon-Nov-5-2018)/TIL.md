@@ -80,7 +80,7 @@ fetch("/data.json").then(function(res) {
 
 Definition of: **L3 cache**. **L3 cache**. (Level 3 **cache**) A memory bank built onto the motherboard or within the CPU module. The**L3 cache** feeds the L2 **cache**, and its memory is typically slower than the L2 memory, but faster than main memory. The**L3 cache** feeds the L2 **cache**, which feeds the L1 **cache**, which feeds the processor.
 
-![](/Users/yoonjaepark/Desktop/Fast Campus Front-End School/10W 37D (Mon, Nov 5, 2018)/img/image003.jpg)
+![](./img/image003.jpg)
 
 
 
@@ -153,9 +153,9 @@ Definition of: **L3 cache**. **L3 cache**. (Level 3 **cache**) A memory bank bui
   **(요청) 검증을 위해 사용됨. 이전에 저장해두었던 자원의 ETag 값을 If-None-Match 헤더의 값으로 요청에 포함시켜서 보내면, 서버는 해당 경로에 있는 자원의 ETag와 비교해보고 자원의 전송 여부를 결정** **(ETag와 같이 자주 쓰이므로 엮어서 알아둘 것)**
 
   - 바뀐 자원이 없는 경우: 브라우저에서 server에 request를 보내고 server가 확인하고 만약 변경된 것이 없다면 304 응답코드를 보낸다. 
-  - ![](/Users/yoonjaepark/Desktop/Fast Campus Front-End School/10W 37D (Mon, Nov 5, 2018)/img/20181105_115107_HDR.jpg)
+  - ![](./img/20181105_115107_HDR.jpg)
   - 바뀐 자원이 있는 경우: 200 OK 응답코드와 바디에 새로 바뀐 자원을 포함해서 보낸다. 
-  - ![](/Users/yoonjaepark/Desktop/Fast Campus Front-End School/10W 37D (Mon, Nov 5, 2018)/img/20181105_115241_HDR.jpg)
+  - ![](./img/20181105_115241_HDR.jpg)
 
 ※ Netlify에 이 기능이 내장되 있음
 
@@ -172,7 +172,7 @@ Definition of: **L3 cache**. **L3 cache**. (Level 3 **cache**) A memory bank bui
 
 ## Cacheable Methods
 
-![](/Users/yoonjaepark/Desktop/Fast Campus Front-End School/10W 37D (Mon, Nov 5, 2018)/img/HEDlwPSl.png)
+![](./img/HEDlwPSl.png)
 
 POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/cacheable) 범주에 포함되기는 하지만, 특별한 조건을 만족시켜야 하며 실무에서는 POST cache가 거의 사용되지 않습니다.
 
@@ -194,7 +194,7 @@ POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/
 
 (혹은 global Application Delivery Network (in Netlify))
 
-![](/Users/yoonjaepark/Desktop/Fast Campus Front-End School/10W 37D (Mon, Nov 5, 2018)/img/20181105_121356_HDR.jpg)
+![](./img/20181105_121356_HDR.jpg)
 
 
 
