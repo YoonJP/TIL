@@ -178,7 +178,7 @@ POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/
 
 
 
-##캐시의 사용
+## 캐시의 사용
 
 - 브라우저는 이미 캐시를 잘 활용하도록 만들어져 있습니다.
 - Express는 이미 캐시를 잘 활용하도록 만들어져 있습니다.
@@ -188,7 +188,7 @@ POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/
 
 
 
-###※ CDN(Content Delivery Network)
+### ※ CDN(Content Delivery Network)
 
 자료를 전 세계 도처에 제공하기 위해서 거점 네트워크를 사용하는 방법
 
@@ -198,7 +198,7 @@ POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/
 
 
 
-##참고 링크
+## 참고 링크
 
 - <https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=ko>
 - <https://developer.mozilla.org/ko/docs/Web/HTTP/Caching>
@@ -230,7 +230,7 @@ POST 메소드는 [Cacheable](https://developer.mozilla.org/en-US/docs/Glossary/
 
 
 
-##참고 링크
+## 참고 링크
 
 - <https://dev-blog.apollodata.com/graphql-vs-rest-5d425123e34b>
 
