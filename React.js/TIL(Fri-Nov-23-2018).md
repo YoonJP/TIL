@@ -332,4 +332,4 @@ u.get('b') // "2"
 - [hashChange Example - Codepen](https://codepen.io/yoonjp/pen/yQKEWM)
 - [React Router](https://reacttraining.com/react-router/web/example/basic)
 
-- [React Router Component Summary Description](
+- [React Router Component Summary Description](https://gist.github.com/seungha-kim/2810b1f14458211dfc2bcc6b061a70af)
